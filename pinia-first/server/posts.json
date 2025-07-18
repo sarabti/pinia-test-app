@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "Vue Tips & Tricks",
+    "content": "Quick tips to improve your Vue apps."
+  },
+  {
+    "id": 2,
+    "title": "Vite is Fast",
+    "content": "Exploring why Vite builds are so quick."
+  },
+  {
+    "id": 3,
+    "title": "Node Server Fun",
+    "content": "Serving JSON with a simple Node server."
+  },
+  {
+    "id": 4,
+    "title": "Frontend Magic",
+    "content": "How to delight users with animations."
+  },
+  {
+    "id": 5,
+    "title": "API Basics",
+    "content": "Learn to build and consume APIs easily."
+  }
+]
