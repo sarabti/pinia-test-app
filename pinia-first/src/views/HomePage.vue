@@ -4,6 +4,7 @@
   <button @click="incrementCount">Increment</button>
   <button @click="increment">Also Increment</button>
   <h2>{{ count }}</h2>
+  {{ counter.secret }}
 </template>
 <script setup>
 import { useCounterStore } from '@/stores/counter'
