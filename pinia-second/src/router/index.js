@@ -6,22 +6,22 @@ const router = createRouter({
     {
       path: '/',
       name: 'login',
-      component: () => import('@/views/auth/LoginPage.vue'),
+      component: () => import('../views/auth/LoginPage.vue'),
     },
     {
       path: '/admin',
       name: 'admin',
-      component: () => import('@views/admin/IndexPage.vue'),
+      component: () => import('../views/admin/IndexPage.vue'),
       children: [
         {
           path: '/',
           name: '',
-          component: () => import('@/views/admin/pages/DashboardPage.vue'),
+          component: () => import('../views/admin/pages/DashboardPage.vue'),
         },
         {
           path: '/posts',
           name: 'posts',
-          component: () => import('@/views/admin/pages/PostPage.vue'),
+          component: () => import('../views/admin/pages/PostPage.vue'),
         },
       ],
     },
